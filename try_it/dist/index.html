@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./output.css">
+    <title>Document</title>
+    <style>
+        .banner{
+       
+            width: 1100px;
+            height: 850px;
+            background-repeat: no-repeat;
+            position: relative;
+            background-position: center;
+            display: block;        
+        }
+    </style>
+</head>
+<body>
+    <nav class=" bg-black p-5 md:flex md:items-center md:justify-between ">
+        <div class="flex justify-between items-center">
+          <span class=" text-2xl text-yellow-50 font -[Poppins] cursor-pointer hover:text-red-500 ">
+            
+              PHOTO GALLERY
+          </span>
+          <span class="text -3xl  cursor-pointer mx-2 md:hidden block">
+            <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+          </span>
+        </div>
+        <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-black w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+          <li class="mx-5">
+            <a  class="text-white "  href="index.html">HOME</a>
+          </li>
+          <li class="mx-5">
+            <a  class="text-white " href="index.html">SERVICE</a>
+          </li>
+          <li class="mx-5">
+            <a class="text-white " href="index.html">CONTACTS</a>
+          </li>
+          <li class="mx-5">
+            <a class="text-white" href="index.html">PROJECTS</a>
+          </li>
+
+          <button class=" uppercase text-white hover:text-black bg-red-600 font-[Poppins] px-6 py-2 mx-4  rounded-xl">
+           about us
+          </button>
+        </ul>
+</nav>   
+
+<div class=" justify-center grid place-content-center bg-black ">
+
+   
+    <div >
+      <a href="the_avengers.html"> <h1 class=" underline text-5xl font-serif animate-text-slidein  text-center text-white" > THE AVENGERS </h1> </a>
+       <img class="h- max-w-full" src="https://wallpapercave.com/wp/wp6060395.jpg" alt="image description">
+   </div>
+    <div>
+      
+      <a href="x-men.html"><h1 class=" text-5xl font-serif underline text-center  text-white"> X-MEN </h1> </a>
+      <img class="h-auto max-w-full" src=" https://images5.alphacoders.com/525/525196.jpg" alt="image description">
+    </div>
+    <div>
+      <a href="GUARDIAN_OF_THE_GALAXY.html"><h1 class="text-center text-5xl font-serif pt-10 underline text-white"> GUARDIAN OF THE GALAXY</h1></a>
+      <img class=" w-full" src= "https://wallpapers.com/images/hd/guardians-of-the-galaxy-digital-collage-q9q1imelgtea29zo.jpg "   alt="image description">
+    </div>
+
+  
+</div>
+ 
+<footer >
+    <div class="p-10  bg-black text-white ">
+         <div class="max w-7xl mx-auto">
+           <div class="grid grid-cols-1 md:grid-cols-4 gap-2">
+                 <div class="mb-5"> 
+                   <h4>Company</h4>
+                   Lorem ipsum, dolor sit amet <br>
+                   consectetur adipisicing elit. <br>
+                   Ipsa nihil, iusto amet quia maiores <br> <br>
+                   <strong>Phone:</strong>278633326789 <br>
+                   <strong>email:</strong>abc@gmail.com <br>
+                   
+                 </div>
+                 <div class="mb-5"> 
+                   <h4> use links </h4>
+                   <ul>
+                        <li>home</li>
+                        <li>about us </li>
+                        <li>serices</li>
+                        <li>terms of Servies</li>
+                        <li>privary policy</li>
+                   </ul>
+                 </div>
+                 <div class="mb-5">
+                   <h4> our services </h4>
+                   <ul>
+                        <li>web design</li>
+                        <li>web development</li>
+                        <li>product management</li>
+                        <li>marking</li>
+                        <li>garphic design</li>
+                   </ul>
+                 </div>
+                 <div class="mb-5">
+                   <h4> join our newsletter </h4>
+                   <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias et labore quasi quibusdam ducimus sequi ut soluta porro. Suscipit nostrum qui adipisci quod accusamus, nemo totam alias ipsa minus asperiores? </p>
+                  
+                 </div>
+           </div>
+         </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
